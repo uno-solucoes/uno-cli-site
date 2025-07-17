@@ -20,3 +20,8 @@ uno configuration set --login
 uno run 
 
 ```
+Hello! I'd like to clarify that the executable uno.exe was internally built and verified by Uno Soluções using CI/CD pipelines. The VirusTotal flags shown are minor heuristic detections (no more than 5 engines), which are common for binaries compiled in Go.
+
+We have conducted internal safety checks and confirmed there is no malicious behavior. The binary's origin, SHA256 checksum, and a full security explanation are publicly available here: 🔗 https://uno-solucoes.github.io/uno-cli-site
+
+These details were also included in the VERIFICATION.txt file submitted with the package. We appreciate the Chocolatey moderation team's time and remain available for any further review or questions.
